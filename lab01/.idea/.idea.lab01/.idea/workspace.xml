@@ -8,15 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee53d792-8049-499d-984c-c4ad9015956b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lab01/Examples/AutoResetEventExample.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab01/Examples/BasicThread.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab01/Examples/FactorialJoin.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab01/Examples/IExample.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab01/Examples/JoinThreads.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab01/Examples/LambdaThread.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab01/Examples/ParameterizedThread.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab01/Examples/PriorityExample.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab01/Examples/ThreadLocalExample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab02/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab02/.idea/lab02.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +34,7 @@
     "accountId": "99db1d4d-8c7a-4a4a-8a56-e5c9552ea40a"
   }
 }]]></component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 8
@@ -98,16 +92,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745756793619</updated>
-      <workItem from="1745756794801" duration="628000" />
+      <workItem from="1745756794801" duration="1257000" />
     </task>
+    <task id="LOCAL-00001" summary="lab01 initial">
+      <option name="closed" value="true" />
+      <created>1745757498838</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745757498838</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="lab01 initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab01 initial" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
