@@ -1,5 +1,6 @@
 ﻿#include <mpi.h>
 #include <iostream>
+#include <vector>
 
 double factorial(int n) {
     double result = 1.0;
@@ -24,32 +25,31 @@ int main(int argc, char* argv[]) {
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Comm_size(MPI_COMM_WORLD, &size);
 
-    int n;
-    if (rank == 0) {
-        std::cout << "Input number of terms n: ";
-        std::cin >> n;
-    }
+    std::vector<int> terms = {10, 100, 1000, 100000};
 
-    MPI_Bcast(&n, 1, MPI_INT, 0, MPI_COMM_WORLD);
-    MPI_Barrier(MPI_COMM_WORLD);
-    double start_time = MPI_Wtime();
+    for (int n : terms) {
+        MPI_Barrier(MPI_COMM_WORLD);
+        double start_time = MPI_Wtime();
 
-    int local_n = n / size;
-    int remainder = n % size;
-    int start = rank * local_n + (rank < remainder ? rank : remainder);
-    int end = start + local_n + (rank < remainder ? 1 : 0);
+        int local_n = n / size;
+        int remainder = n % size;
+        int start = rank * local_n + (rank < remainder ? rank : remainder);
+        int end = start + local_n + (rank < remainder ? 1 : 0);
 
-    double local_sum = local_expansion(start, end);
+        double local_sum = local_expansion(start, end);
 
-    double total_sum = 0.0;
-    MPI_Reduce(&local_sum, &total_sum, 1, MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
+        double total_sum = 0.0;
+        MPI_Reduce(&local_sum, &total_sum, 1, MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
 
-    MPI_Barrier(MPI_COMM_WORLD);
-    double end_time = MPI_Wtime();
+        MPI_Barrier(MPI_COMM_WORLD);
+        double end_time = MPI_Wtime();
 
-    if (rank == 0) {
-        std::cout << "Approximate value of e^1: " << total_sum << "\n";
-        std::cout << "Execution time: " << end_time - start_time << " seconds\n";
+        if (rank == 0) {
+            std::cout << "n = " << n << "\n";
+            std::cout << "Approximate value of e^1: " << total_sum << "\n";
+            std::cout << "Execution time: " << end_time - start_time << " seconds\n";
+            std::cout << "-------------------------------------------\n";
+        }
     }
 
     MPI_Finalize();

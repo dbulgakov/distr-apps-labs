@@ -11,7 +11,7 @@ endif()
 
 find_package(MPI REQUIRED)
 
-set(MPI_PROCESSES 3 CACHE STRING "Number of MPI processes to use")
+set(MPI_PROCESSES 8 CACHE STRING "Number of MPI processes to use")
 
 add_executable(task1 task1.cpp)
 add_executable(task2 task2.cpp)

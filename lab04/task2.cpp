@@ -35,7 +35,7 @@ int main(int argc, char* argv[]) {
 
     const double a = -1.0;
     const double b = 0.0;
-    std::vector<int> subdivisions = {10, 100, 1000};
+    std::vector<int> subdivisions = {10, 100, 1000, 100000};
 
     for (int n : subdivisions) {
         MPI_Barrier(MPI_COMM_WORLD);
