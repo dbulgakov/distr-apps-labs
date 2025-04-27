@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.20) # 3.20 — более совместимо и точно хватит для OpenMPI+CLion
+cmake_minimum_required(VERSION 3.20)
 
 project(MPIExchange LANGUAGES CXX)
 
