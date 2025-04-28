@@ -1,18 +1,16 @@
 namespace lab01.Examples;
 
-public class AutoResetEventExample : IExample
+public class ParametrizedThreadStartExample : IExample
 {
-    private static readonly AutoResetEvent WaitHandle = new(false);
-
     public void Run()
     {
         Console.WriteLine($"Main thread ID: {Thread.CurrentThread.ManagedThreadId}");
 
+        var pm = new Params(10, 10);
         var t = new Thread(Add);
-        t.Start(new Params(10, 10));
+        t.Start(pm);
 
-        WaitHandle.WaitOne();
-        Console.WriteLine("All threads finished.");
+        t.Join();
     }
 
     static void Add(object? obj)
@@ -21,7 +19,6 @@ public class AutoResetEventExample : IExample
         {
             Console.WriteLine($"Thread ID: {Thread.CurrentThread.ManagedThreadId}");
             Console.WriteLine($"{p.A} + {p.B} = {p.A + p.B}");
-            WaitHandle.Set();
         }
     }
 

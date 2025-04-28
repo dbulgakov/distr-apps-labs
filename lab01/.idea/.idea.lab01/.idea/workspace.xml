@@ -8,9 +8,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee53d792-8049-499d-984c-c4ad9015956b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../lab05/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab05/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../lab05/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab05/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab05/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab01/Examples/CorrectLambdaExample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab01/Examples/JoinThreadsExample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab01/Examples/MainThreadChildThreadExample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab01/Examples/ParametrizedThreadStartExample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab01/Examples/PassParametersGlobalVarsExample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab01/Examples/PassParametersStartExample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab01/Examples/SleepExample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab01/Examples/StaticLambdaClassExample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab01/Examples/ThreadNumbersExample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab01/Examples/WrongLambdaExample.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.lab01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lab01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/Examples/AutoResetEventExample.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/Examples/AutoResetEventExample.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/Examples/BasicThread.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/Examples/FactorialJoin.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/Examples/IExample.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/Examples/IExample.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/Examples/JoinThreads.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/Examples/LambdaThread.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/Examples/ParameterizedThread.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/Examples/PriorityExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/Examples/ThreadLocalExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,44 +41,44 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "dbulgakov"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dbulgakov&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/dbulgakov/distr-apps-labs.git",
-    "accountId": "99db1d4d-8c7a-4a4a-8a56-e5c9552ea40a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dbulgakov/distr-apps-labs.git&quot;,
+    &quot;accountId&quot;: &quot;99db1d4d-8c7a-4a4a-8a56-e5c9552ea40a&quot;
   }
-}]]></component>
+}</component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2wJPdnbXgyiYK4e1jEpxnSTWdbe" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.lab01.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.lab01.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="lab01" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -94,6 +112,8 @@
       <option name="presentableId" value="Default" />
       <updated>1745756793619</updated>
       <workItem from="1745756794801" duration="2468000" />
+      <workItem from="1745833285653" duration="25000" />
+      <workItem from="1745833322132" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="lab01 initial">
       <option name="closed" value="true" />
