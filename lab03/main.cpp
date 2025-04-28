@@ -1,6 +1,7 @@
 #include <mpi.h>
 #include <array>
 #include <cstdint>
+#include <cstring>
 #include <iostream>
 
 constexpr std::int32_t BufLen = 256;
